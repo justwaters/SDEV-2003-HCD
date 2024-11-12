@@ -1,1 +1,3 @@
-# SDEV-2003-HCD
+## School Project
+
+I made this as a demo project for a school assignment.
