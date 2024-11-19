@@ -42,6 +42,10 @@
 /* Step 8 & 9: Interactive rule for even li elements - background color change on hover with transition */
 
 /* Apply a transition for background color change - combined with Step 8 */
+.items li:nth-child(even):hover {
+	background-color: rgb(200, 200, 200);
+	transition: background-color 0.3s ease;
+}
 
 /* Step 10 & 11: Interactive rule for odd li elements - font size and weight change on hover */
 
