@@ -17,18 +17,26 @@
 
 .items li {
 	/* Step 1: Set font size for all li elements within .items */
+	font-size: 18px;
 
 	/* Step 2: Change text color for all li elements */
+	color: #333333;
 
 	/* Step 3: Background color for each li element */
+	background-color: rgb(240, 240, 240);
 
 	/* Step 4: Padding and margin for each li element */
+	padding: 10px;
+	margin: 10px;
 
 	/* Step 5: Border for each li element */
+	border: 1px solid #cccccc;
 
 	/* Step 6: Rounded corners for each li element */
+	border-radius: 8px;
 
 	/* Step 7: Set list-style-type property to None for each li element  */
+	list-style-type: none;
 }
 
 /* Step 8 & 9: Interactive rule for even li elements - background color change on hover with transition */
