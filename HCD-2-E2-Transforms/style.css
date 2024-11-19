@@ -50,3 +50,9 @@
 /* Step 10 & 11: Interactive rule for odd li elements - font size and weight change on hover */
 
 /* Ensure smooth transition for font size and weight - combined with Step 10 */
+.items li:nth-child(odd):hover {
+	font-size: 20px;
+	font-weight: bold;
+	transition: font-size 0.3s ease;
+	transition: font-weight 0.3s ease;
+}
