@@ -20,6 +20,7 @@ body {
 	/* Add properties for flexbox below this comment */
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -34,4 +35,7 @@ body {
 
 .main-content,
 .sidebar {
+	padding: 10px;
+	text-overflow: ellipsis;
+	overflow: scroll;
 }
