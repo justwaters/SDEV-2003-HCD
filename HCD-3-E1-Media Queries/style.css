@@ -1,0 +1,73 @@
+:root {
+	--color-blue: #4472c4;
+	--color-orange: #ed7d31;
+	--color-gray: #a5a5a5;
+	--color-green: #70ad47;
+	--color-off-white: #dfe7f5;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	color: var(--color-off-white);
+	min-height: 100vh;
+	font-size: 1.5rem;
+}
+
+nav {
+	background-color: var(--color-blue);
+}
+
+header {
+	background-color: var(--color-orange);
+}
+
+.text {
+	background-color: var(--color-gray);
+}
+
+.image {
+	background-color: var(--color-green);
+}
+
+footer {
+	background-color: var(--color-orange);
+}
+
+body * {
+	border: 1px solid black;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	height: 100vh;
+}
+
+main {
+	display: grid;
+	grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+.texts {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.images {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.text,
+.image,
+header,
+footer,
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Learners will add the rest of their CSS below this line */
